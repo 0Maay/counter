@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;600&family=Rajdhani:wght@300;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary:#fecd1a;
+    --color-tertiary:#fd3a69;
+    --color-secundary:#9d0191;
+    --size-text: 1.2rem;
+}
+
+body{
+    background-image: linear-gradient( #120078, var(--color-secundary));   
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    font-family: 'Rajdhani', sans-serif;
+    justify-content: center;
+    align-items:center;
+    align-items:flex-start;
+    width: 100vw;
+    height: 100vh;
+}
+
+button{
+    padding: 0.8rem;
+    margin: 0.8rem;
+    width: 8rem;
+    height: 3.5rem;
+    background-color:var(--color-tertiary);
+    color:var(--color-primary);
+    border: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    outline: none;
+    transition: all 0.3s;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+button:active{
+    background-color: var(--color-primary);
+    color:var(--color-tertiary);
+}
+
+main{
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: 600;
+    align-self: center;
+    color: var(--color-primary);
+}
+
+h2{
+    font-weight: 500;
+    font-size: 6rem;
+    align-self: center;
+    color: var(--color-primary);
+    transition: all 2s;
+}
+
+.buttons{
+    align-items: flex-start;
+}
+
+article{
+    margin: 0.5rem;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
