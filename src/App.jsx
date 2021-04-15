@@ -1,4 +1,6 @@
 import { useState } from "react"
+import SettingsBackupRestoreSharpIcon from '@material-ui/icons/SettingsBackupRestoreSharp';
+
 
 const App = () =>{
 
@@ -37,7 +39,7 @@ const App = () =>{
                 <section className="buttons">
                     <button onClick={add}>+</button>
                     <button onClick={subtract}>-</button>
-                    <button onClick={reset}>⭯</button>
+                    <button onClick={reset}><SettingsBackupRestoreSharpIcon/></button>
                 </section>
             </article>
             <article>
@@ -46,7 +48,7 @@ const App = () =>{
                 <section className="buttons">
                     <button onClick={addInc}>+</button>
                     <button onClick={subtractInc}>-</button>
-                    <button onClick={resetInc}>⭯</button>
+                    <button onClick={resetInc}><SettingsBackupRestoreSharpIcon/></button>
                 </section>
             </article>
         </main>
